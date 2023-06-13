@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <input id="color-picker" type="color">
+            <select name="colors" id="color-schemes">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome Dark</option>
+                <option value="monochrome-light">Monochrome Light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic Complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="get-scheme-btn">Get Color Scheme</button>
+        </header>
+        <main>
+            <div class="schemes" id="scheme-1">
+                <div class="colors" id="color-1"></div>
+                <p id="color-values-1"></p>
+            </div>
+            <div class="schemes" id="scheme-2">
+                <div class="colors" id="color-2"></div>
+                <p id="color-values-2"></p>
+            </div>
+            <div class="schemes" id="scheme-3">
+                <div class="colors" id="color-3"></div>
+                <p id="color-values-3"></p>
+            </div>
+            <div class="schemes" id="scheme-4">
+                <div class="colors" id="color-4"></div>
+                <p id="color-values-4"></p>
+            </div>
+            <div class="schemes" id="scheme-5">
+                <div class="colors" id="color-5"></div>
+                <p id="color-values-5"></p>
+            </div>
+        </main>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>

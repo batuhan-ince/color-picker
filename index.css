@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937;
+    
+}
+
+header {
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    gap: 5px;
+}
+
+#color-picker {
+    /* width: 60px; */
+    height: 45px;
+    border: none;
+    cursor: pointer;
+    background: #D1D5DB;
+}
+
+#color-schemes {
+    height: 40px;
+    /* width: 200px; */
+    border-radius: 4px;
+    border: 1px solid #D1D5DB;
+    color: #D1D5DB;
+    background: #1F2937;
+    font-size: 14px;
+}
+
+#get-scheme-btn {
+    /* width: 123px; */
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background: #3D4B60;
+    color: white;
+    font-size: 12px;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+.colors {
+    height: 75vh;
+    width: 100%;
+}
+
+.schemes {
+    width: 20%
+}
+
+.colors:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+main p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
